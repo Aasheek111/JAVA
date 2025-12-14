@@ -1,12 +1,12 @@
-package Lab2;
+package Lab2.Abstraction;
 
-interface BankAccount {
+interface Bank {
     void deposite();
     void withdraw();
     void display();
 }
 
-class Saving implements BankAccount {
+class SavingI implements Bank {
     @Override
     public void deposite() {
         System.out.println("Depositing in ");
@@ -24,7 +24,7 @@ class Saving implements BankAccount {
     }
 }
 
-class Checking implements BankAccount {
+class CheckingI implements Bank {
     @Override
     public void deposite() {
         System.out.println("Depositing in Checking Account");

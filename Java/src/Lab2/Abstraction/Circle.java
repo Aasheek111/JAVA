@@ -1,4 +1,4 @@
-package Lab2;
+package Lab2.Abstraction;
 
 
 abstract class Shape {

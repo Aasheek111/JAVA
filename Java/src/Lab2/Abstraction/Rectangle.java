@@ -1,4 +1,5 @@
-package Lab2;
+package Lab2.Abstraction;
+
 class Rectangle extends Shape {
     @Override
     public void calculateArea() {

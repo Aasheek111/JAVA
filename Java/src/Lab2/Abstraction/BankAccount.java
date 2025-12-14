@@ -1,4 +1,4 @@
-package Lab2;
+package Lab2.Abstraction;
 
 abstract public class BankAccount {
     abstract void deposite();
