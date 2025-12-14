@@ -1,4 +1,5 @@
-public class Third {
+package Lab1;
+public class Table{
 
     public static void main() {
         int i;
